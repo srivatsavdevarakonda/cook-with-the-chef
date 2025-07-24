@@ -16,10 +16,10 @@
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-> **Live Demo:**  
-> cook-with-the-chef.vercel.app
+🔗 (https://cook-with-the-chef.vercel.app)
+
 
 ---
 

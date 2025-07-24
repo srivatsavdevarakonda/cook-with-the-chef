@@ -18,7 +18,7 @@
 
 ## 🚀 Live Demo
 
-🔗 (https://cook-with-the-chef.vercel.app)
+🔗 https://cook-with-the-chef.vercel.app
 
 
 ---

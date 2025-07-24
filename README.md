@@ -34,7 +34,6 @@
 * **HTML5**
 * **CSS3**
 * **JavaScript (Vanilla)**
-* **[html2canvas](https://html2canvas.hertzen.com/)** – for downloading DOM as image
 * **Google Fonts** – Space Mono
 
 ---

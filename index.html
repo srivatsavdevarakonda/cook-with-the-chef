@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Art Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>🎨 Cook with the Chef</h1>
+        <p>Turn your favorite words into a calendar of commitment.</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <input type="text" id="word-input" placeholder="Enter any word">
+            <input type="date" id="start-date-input" title="Select a start date">
+            <button id="generate-btn" class="btn-primary">Generate Art</button>
+            <button id="download-btn" class="btn-secondary">Download Image</button>
+        </div>
+
+        <div class="output-wrapper">
+            <div id="heatmap-wrapper">
+                 <div class="heatmap-container" id="heatmap-container">
+                    <p class="placeholder-text">Enter a word and select a start date.</p>
+                </div>
+            </div>
+            <div id="dates-list-wrapper">
+                <h3 id="active-dates-heading">Active Dates Required</h3>
+                <ul id="active-dates-list">
+                    <li>Your list of dates will appear here...</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Your coding streak, beautifully visualized.</p>
+    </footer>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
